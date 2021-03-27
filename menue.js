@@ -19,12 +19,12 @@ class Menu {
 
         this.offset = [-10,-10,-20,-20];
 
-        this.play_img = loadImage('./menu/Play.png')
-        this.my_img = loadImage('./menu/Play.png')
-        this.own_img = loadImage('./menu/Play.png')
-        this.back_img = loadImage('./menu/Back.png')
+        this.play_img = loadImage('menu/Play.png')
+        this.my_img = loadImage('menu/Play.png')
+        this.own_img = loadImage('menu/Play.png')
+        this.back_img = loadImage('menu/Back.png')
 
-        this.font = loadFont('./menu/palamecia-titling.regular.ttf')
+        this.font = loadFont('menu/palamecia-titling.regular.ttf')
         this.buttons = [ [ this.my_img , this.width/2 - 200 , this.height/2  , 100 , 100 , 'My Version'] , [ this.own_img , this.width/2 + 200 , this.height/2 , 100 , 100  , 'Boring Version']];
     }
 
